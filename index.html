@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <section class="left-side">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section class="right-side">
+        <div class="button-container-top">
+          <button>
+            <span> Try it free 7 days</span> then $20/mo. thereafter
+          </button>
+        </div>
+
+        <form action="" class="form-container">
+          <input
+            class="input"
+            type="text"
+            name="first"
+            placeholder="First Name"
+          />
+          <label class="label" for="first">first name can not be empty</label>
+          <input
+            class="input"
+            type="text"
+            name="last"
+            placeholder="Last Name"
+          />
+          <label class="label" for="last">last name can not be empty</label>
+          <input
+            class="input"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <label class="label" for="email">looks like this is not e-mail</label>
+          <input
+            class="input"
+            name="pass"
+            type="password"
+            placeholder="Password"
+          />
+          <label class="label" for="pass">password can not be empty</label>
+          <button class="form-button">Claim your free trial</button>
+          <p>
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Milos Stanojevic</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
